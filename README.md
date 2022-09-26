@@ -6,7 +6,7 @@
 ## El contenido de la pagina
 
 
-1. Posibilidad de cmabiar modo oscuro/claro desde el nav donde se encuentra en la parte superior
+1. Posibilidad de cambiar modo oscuro/claro desde el nav donde se encuentra en la parte superior
 2. Cuenta con una imagen a la izquierda en el nav donde se redirige al inicio de la página 
 
 
