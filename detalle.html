@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+
+    <link rel="shortcut icon"
+        href="https://res.cloudinary.com/dvdq3xuzq/image/upload/bo_0px_solid_rgb:000,c_scale,w_80/v1664031533/Parcial/japanese-bar-logo-concept-with-torii-gate-and-sushi-roll-vector-removebg-preview_guaxkv.png">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Cabin|Herr+Von+Muellerhoff|Source+Sans+Pro" rel="stylesheet">
+
+    <!--FontAwesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+        integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styleDetalle.css">
+
+
+
+</head>
+
+<body class="stop-scroll">
+    <div class="loader-wrap">
+        <div class="loader">
+            <span class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span
+                class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span
+                class="loader-item"></span><span class="loader-item"></span><span class="loader-item"></span><span
+                class="loader-item"></span>
+        </div>
+    </div>
+
+    <div class="dots">
+        <div class="active one" data-x="header"></div>
+        <div class="two" data-x=".recipes"></div>
+        <div class="three" data-x=".fixed-image"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html"><img
+                        src="https://res.cloudinary.com/dvdq3xuzq/image/upload/bo_0px_solid_rgb:000,c_scale,w_80/v1664031533/Parcial/japanese-bar-logo-concept-with-torii-gate-and-sushi-roll-vector-removebg-preview_guaxkv.png"
+                        alt="Sushu Logo"></a>
+            </div>
+            <div class="toggle">
+                <span class="first"></span>
+                <span class="middle"></span>
+                <span class="last"></span>
+            </div>
+            <div class="navigation-bar">
+                <ul>
+                    <li class="active"><a href="index.html">Home<span class="underline"></span></a></li>
+                    <li><a href="menu.html">Menu<span class="underline"></span></a></li>
+                    <li><a href="detalle.html">Detalle<span class="underline"></span></a></li>
+                    <li><a href="contacto.html">Contacto<span class="underline"></span></a></li>
+                    <li> Dark </li>
+                    <li><input type="checkbox" id="darkToggle" class="darkToggle">
+                        <label for="darkToggle">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="text">
+            <h1>SUSHI TORI</h1>
+            <h1></h1>
+            <div class="arrow">
+                <span class="left"></span>
+                <i class="fas fa-asterisk"></i>
+                <span class="right"></span>
+            </div>
+            <span>Desliza para ver el los detalles del menu</span>
+
+        </div>
+
+    </header>
+
+    <div class="menu">
+
+        <div class="menu-container">
+
+            <section id="menu-list" class="section-padding">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-12 text-center" id="menu-filters">
+                            <ul>
+                                <li><a class="filter active" data-filter=".menu-restaurant">Todo</a></li>
+                                <li><a class="filter " data-filter=".ramen">RAMEN ラーメン</a></li>
+                                <li><a class="filter" data-filter=".sushi">Sushi 寿司</a></li>
+                                <li><a class="filter" data-filter=".drinks">Tragos</a></li>
+                            </ul>
+                        </div>
+                        <div id="menu-wrapper">
+                            <br>
+                            <!-- RAMEN -->
+                            <div class="ramen menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#" data-meal-img=".jpg">SHOYU</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$2060</span>
+                                </span>
+                                <p class="menu-subtitle">(Caldo de Pollo + Shoyu) Fideos + chashu + Negi + Nori +
+                                    Tamago + Shiitake + Moyashi</p>
+                            </div>
+                            <div class="ramen menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">MISO</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$2060</span>
+                                </span>
+                                <p class="menu-subtitle">(Caldo de cerdo + Miso) Fideos + chashu + Negi + Nori +
+                                    Tamago + Choclo + Moyashi</p>
+                            </div>
+
+                            <div class="ramen menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">TONKOTSU</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$2060</span>
+                                </span>
+                                <p class="menu-subtitle">(Caldo de cerdo) Fideos + chashu + Negi + Nori + Tamago +
+                                    Benishoga + Moyashi</p>
+                            </div>
+
+                            <div class="ramen menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">EBI KARAI</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$2060</span>
+                                </span>
+                                <p class="menu-subtitle">(Caldo de langostinos) Fideos + Langostinos + Negi + Nori +
+                                    Tamago + Choclo +
+                                    Moyashi (OPCIONAL PICANTE )</p>
+                            </div>
+
+                            <!-- Sushi -->
+                            <div class="sushi menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">NIGIRI</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$1870</span>
+                                </span>
+                                <p class="menu-subtitle">5 unidades de nigiri de pescado surtido</p>
+                            </div>
+
+                            <div class="sushi menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">NIGIRI MORIAWASE</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$3300</span>
+                                </span>
+                                <p class="menu-subtitle">10 unidades de nigiri de pescados y mariscos surtidos</p>
+                            </div>
+
+                            <div class="sushi menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">SASHIMI MORIAWASE</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$3600</span>
+                                </span>
+                                <p class="menu-subtitle">10 unidades de sashimis de pescados surtidos</p>
+                            </div>
+
+                            <div class="sushi menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">BARACHIRASHI</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$2580</span>
+                                </span>
+                                <p class="menu-subtitle">Cubos de pescado + Kyuri + Tamago + Shiitake - sobre arroz
+                                    de sushi</p>
+                            </div>
+
+                            <div class="sushi menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">CHIRASHIDON</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$2730</span>
+                                </span>
+                                <p class="menu-subtitle">Cortes de pescado surtido + arroz de sushi</p>
+                            </div>
+
+
+                            <!-- Tragos -->
+                            <div class="drinks menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">TANUKI</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$700</span>
+                                </span>
+                                <p class="menu-subtitle">Vodka o sake, jugo de maracuyá, syrup de ananá y
+                                    Jägermeister.</p>
+                            </div>
+
+                            <div class="drinks menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">HARAJUKU</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$650</span>
+                                </span>
+                                <p class="menu-subtitle" Sake, syrup de vainilla, lima y agua de rosas.</p>
+                            </div>
+
+                            <div class="drinks menu-restaurant">
+                                <span class="clearfix">
+                                    <a class="menu-title" href="#">CHANIWA</a>
+                                    <span class="menu-line"></span>
+                                    <span class="menu-price">$800</span>
+                                </span>
+                                <p class="menu-subtitle">Sake, syrup de lima, hojas de menta, té helado de jazmín y
+                                    jugo de manzana.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+        </div>
+        <div class="text">
+            <h2>Explorar</h2>
+            <h3>Detalles de la comida</h3>
+            <div><i class="fas fa-asterisk"></i></div>
+            <p>For those with pure food indulgence in mind, come next door and sate your desires with our ever changing
+                internationally and seasonally inspired small plates. We love food, lots of different food, just like
+                you.</p>
+            <div><a class="readMore" href="detalle.html">Ver platos</a></div>
+        </div>
+    </div>
+
+    <div class="recipes">
+        <div class="image"></div>
+        <div class="text">
+            <h2>Nikkei</h2>
+            <h3>La verdadera tradición</h3>
+        </div>
+    </div>
+
+
+
+    <!-- Footer-->
+    <footer>
+        <div class="text">
+            <h2>Acerca de Sushi</h2>
+            <div><i class="fas fa-asterisk"></i></div>
+            <p>
+
+                <i class="fa fa-phone address"></i> 011 2733-7448
+
+                <br>
+                <i class="fa fa-envelope address"></i> <a href="mailto:sushitori@gmail.com">sushitori@gmail.com</a>
+                <br>
+                <i class="fa-regular"></i> Abrimos: 10:00
+                <br>
+                <i class="fa-close"></i> Cerramos: 21:00
+            </p>
+        </div>
+        <div class="contact-container">
+            <div class="social-media">
+                <h3>Seguinos</h3>
+                <div class="links">
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook-square"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                </div>
+            </div>
+
+            <div class="social-media">
+                <h3>Econtranos</h3>
+                <div class="links">
+
+                    <img
+                        src="https://res.cloudinary.com/dvdq3xuzq/image/upload/c_scale,h_30/v1664036352/Parcial/C6WcPme9X3PQVK3SkX8tPQ6ZGXIEAarFOoqSNZBQb5a_-YGk3eCnAOtrWS8tSGBlP2w_jj0vre.png">
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="row">
+            <div id="googleMap" style="height:300px;width:100%;"></div>
+
+
+            <script src="http://maps.googleapis.com/maps/api/js"></script>
+            <script>
+                var myCenter = new google.maps.LatLng(-34.438401, -58.791494);
+
+                function initialize() {
+                    var mapProp = {
+                        center: myCenter,
+                        zoom: 12,
+                        scrollwheel: false,
+                        draggable: false,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP
+                    };
+
+                    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+
+                    var marker = new google.maps.Marker({
+                        position: myCenter,
+                    });
+
+                    marker.setMap(map);
+                }
+
+                google.maps.event.addDomListener(window, 'load', initialize);
+            </script>
+        </div>
+    </footer>
+
+    <div class="copyright">
+        <svg class="svg-up" width="192" height="61" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+            viewBox="0 0 160.7 61.5" enable-background="new 0 0 160.7 61.5" xml:space="preserve">
+            <path fill="#262526"
+                d="M80.3,61.5c0,0,22.1-2.7,43.1-5.4s41-5.4,36.6-5.4c-21.7,0-34.1-12.7-44.9-25.4S95.3,0,80.3,0c-15,0-24.1,12.7-34.9,25.4S22.3,50.8,0.6,50.8c-4.3,0-6.5,0,3.5,1.3S36.2,56.1,80.3,61.5z">
+            </path>
+        </svg>
+        <i class="fas fa-angle-double-up arrow-up"></i>
+        <ul class="info">
+            <li>&copy; SUSHI 2022</li>
+            <li>Las Camelias 3150, B1669 Manuel Alberti</li>
+            <li>011 2733-7448</li>
+
+        </ul>
+        <ul class="CTA">
+            <li><a href="#">PERMISSIONS AND COPYRIGHT</a></li>
+            <li><a href="#">CONTACTANOS</a></li>
+        </ul>
+    </div>
+
+
+
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src="script.js"></script>
+    <script src="scriptDetalle.js"></script>
+
+</body>
+
+</html>
